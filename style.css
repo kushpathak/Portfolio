@@ -134,21 +134,21 @@ a {
 
 .card {
   position: relative;
-  background: #f5f5dc;
+  background: #e1ad9d;
   margin-left: auto;
   margin-right: auto;
   margin-top: 100px;
   width: 550px;
   height: 370px;
-  box-shadow: cyan 0px 7px 29px 0px;
+  box-shadow: #e03b8b 0px 7px 29px 0px;
 }
 .card-h2 {
-  background-color: #f5f5dc;
+  background-color: #e1ad9d;
   font-weight: 600;
   text-align: center;
 }
 .card-h3 {
-  background-color: #f5f5dc;
+  background-color: #e1ad9d;
   font-weight: 450;
   text-align: center;
   padding-top: 5px;
@@ -158,10 +158,10 @@ a {
   color: black;
 }
 .card a:hover {
-  color: #00ced1;
+  color: #e03b8b;
 }
 .card-ul {
-  background-color: #f5f5dc;
+  background-color: #e1ad9d;
   margin-top: 15px;
   margin-left: 0px;
 }
@@ -169,7 +169,7 @@ a {
   margin-top: 20px;
   display: list-item;
   width: 100%;
-  background-color: #f5f5dc;
+  background-color: #e1ad9d;
   text-align: center;
 }
 .arrow-icon {
@@ -196,7 +196,7 @@ a {
 }
 .card-li p {
   width: 90%;
-  background-color: #f5f5dc;
+  background-color: #e1ad9d;
   font-weight: 400;
 }
 .p-two {
@@ -310,7 +310,7 @@ a {
   width: 150px;
   height: 4px;
 
-  background: #7fff00;
+  background: #51e1ed;
   margin: auto;
 }
 .row-ach {
@@ -320,7 +320,7 @@ a {
 
 .card-skill {
   position: relative;
-  background: #ffffe0;
+  background: #51e1ed;
   margin-left: auto;
   margin-right: auto;
   margin-top: 100px;
@@ -333,40 +333,40 @@ a {
   transform: scale(1.1, 1.1);
 }
 .ach-title {
-  background-color: #ffffe0;
+  background-color: #51e1ed;
   font-weight: 500;
   font-size: 20px;
   text-align: center;
-  color: darkcyan;
+  color: #383cc1;
 }
 
 .ach-content {
-  background-color: #ffffe0;
+  background-color: #51e1ed;
   margin-top: 40px;
   text-align: center;
   font-weight: 500;
   line-height: 25px;
   font-size: 18px;
-  color: grey;
+  color: #b4161b;
   /* font-family: "Sora" sans-serif; */
 }
 .link {
-  background-color: #ffffe0;
+  background-color: #51e1ed;
   margin-top: 20px;
 }
 .card-skill a {
-  background-color: #ffffe0;
+  background-color: #51e1ed;
   margin-left: 30%;
 }
 .card-project {
   position: relative;
-  background: #afeeee;
+  background: #f7cd2e;
   margin-left: auto;
   margin-right: auto;
   margin-top: 100px;
   width: 450px;
   height: 290px;
-  box-shadow: blue 0px 7px 29px 0px;
+  box-shadow: #3dbe29 0px 7px 29px 0px;
   /* transition: transform 0.5s; */
 }
 .projects {
@@ -380,7 +380,7 @@ a {
 
 .project-title {
   font-family: sans-serif;
-  background-color: #afeeee;
+  background-color: #f7cd2e;
   font-weight: 400;
   text-align: center;
 }
@@ -395,7 +395,7 @@ a {
   margin: auto;
 }
 .project-content {
-  background-color: #afeeee;
+  background-color: #f7cd2e;
   margin-top: 25px;
   color: green;
   font-weight: 400;
