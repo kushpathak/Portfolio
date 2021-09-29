@@ -352,7 +352,7 @@ a {
   font-weight: 500;
   font-size: 20px;
   text-align: center;
-  color: #383cc1;
+  color: black;
   border-radius: 10px;
 }
 
@@ -398,7 +398,9 @@ a {
   display: flex;
   flex-wrap: wrap;
 }
-
+.link-ach {
+  color: black;
+}
 .project-title {
   font-family: sans-serif;
   background-color: #e1ad9d;
@@ -419,7 +421,7 @@ a {
 .project-content {
   background-color: #e1ad9d;
   margin-top: 25px;
-  color: green;
+  color: #242b2e;
   font-weight: 400;
   text-align: center;
   margin-left: 10px;
