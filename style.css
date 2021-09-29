@@ -1,15 +1,17 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,300;0,400;0,500;0,600;0,700;0,800;1,100;1,300;1,500;1,600&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Sora:wght@100;200;300;400;500;600&display=swap");
-/* Portfolio */
 * {
   font-family: "Poppins", sans-serif;
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  background-color: #dcdcdc;
+  /* background-color: #ffafbd; */
+}
+body {
+  background-image: linear-gradient(to bottom right, #ffafbd, #ffc3a0);
 }
 .navbar {
-  background-color: #dcdcdc;
+  background-color: #6a1b4d;
   box-shadow: rgba(0, 0, 0, 0.45) 0px 25px 20px -20px;
   overflow: hidden;
 }
@@ -26,9 +28,11 @@
   width: 50px;
 }
 ul {
+  /* background-color: #6a1b4d; */
   margin-left: 22%;
 }
 li {
+  /* background-color: #6a1b4d; */
   list-style-type: none;
   display: inline-block;
   width: 15%;
@@ -36,12 +40,16 @@ li {
 a {
   text-decoration: none;
 }
+.add-color {
+  background-color: #6a1b4d;
+}
 .intro {
   z-index: -100;
   margin-left: 344px;
   height: 85vh;
   margin-top: 56px;
 }
+
 .row-intro {
   display: flex;
 }
@@ -59,7 +67,7 @@ a {
   border-radius: 150px;
   filter: grayscale(100%);
   transition: transform 0.5s;
-  box-shadow: 0px 0px 60px cyan;
+  box-shadow: 0px 0px 60px #b9345a;
 }
 .intro-profile:hover {
   filter: grayscale(0%);
@@ -70,11 +78,11 @@ a {
 }
 .intro-info {
   font-weight: 500;
-  color: #1e90ff;
+  color: #b9345a;
 }
 .intro-end {
   font-weight: 500;
-  color: blue;
+  color: #b9345a;
 }
 .social-ul {
   display: flex;
@@ -91,7 +99,7 @@ a {
 
 .social-img {
   width: 75px;
-
+  border-radius: 50%;
   filter: grayscale(100%);
   transition: transform 0.5s;
   box-shadow: 0px 0px 10px cyan;
@@ -102,19 +110,18 @@ a {
 }
 
 .leetcode {
-  width: 125px;
-  margin-top: -10px;
+  /* width: px; */
+  height: 70px;
+  margin-top: 0px;
 }
 .linkedin {
-  width: 120px;
-  height: 75px;
+  width: 80px;
+  height: 70px;
 }
 .codechef {
-  margin-top: -10px;
+  margin-top: 0px;
 }
-.github {
-  margin-top: -7px;
-}
+
 .work-experience {
   z-index: 100;
 }
@@ -235,7 +242,7 @@ a {
   background-color: #f0ffff;
 }
 .row-skills {
-  margin-top: 30px;
+  margin-top: 35px;
   display: flex;
   background-color: #f0ffff;
   transition: transform 0.5s;
@@ -327,7 +334,7 @@ a {
   margin-top: 100px;
   width: 400px;
   height: 190px;
-  box-shadow: cyan 0px 7px 29px 0px;
+  box-shadow: greenyellow 0px 7px 29px 0px;
   transition: transform 0.5s;
 }
 .card-skill:hover {
@@ -598,6 +605,7 @@ a {
     font-size: 20px;
     padding-bottom: 20px;
     margin-right: 20%;
+    /* color: #b9345a; */
   }
   .intro-info,
   .intro-end {
@@ -610,17 +618,17 @@ a {
     padding-bottom: 15px;
   }
   .linkedin {
-    width: 35px;
-    height: 20px;
-    margin-top: 5px;
+    width: 20px;
+    height: 30px;
+    margin-top: 0px;
   }
 
   .leetcode {
-    margin-top: 5px;
+    height: 30px;
+    width: 20px;
+    /* margin-top: 5px; */
   }
-  .hackerrank {
-    margin-top: -5px;
-  }
+
   .social-img {
     width: 35px;
   }
