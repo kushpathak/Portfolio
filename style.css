@@ -253,9 +253,9 @@ a {
   transition: transform 0.5s;
 }
 .row-skills:hover {
-  transform: scale(1.1, 1.1);
-  border: 2px solid cyan;
-  box-shadow: cyan 0px 7px 15px 0px;
+  transform: scale(1.1, 1);
+  border: 2px solid #6a1b4d;
+  box-shadow: #6a1b4d 0px 15px 15px 0px;
   padding-bottom: 0px;
 }
 .col-2-first {
@@ -296,7 +296,7 @@ a {
   left: 40px;
   top: -10px;
   font-size: 25px;
-  color: #1e90ff;
+  color: #6a1b4d;
 }
 .js {
   /* left: 80px; */
