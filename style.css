@@ -67,7 +67,7 @@ a {
   border-radius: 150px;
   filter: grayscale(100%);
   transition: transform 0.5s;
-  box-shadow: 0px 0px 60px #b9345a;
+  box-shadow: 0px 0px 60px #6a1b4d;
 }
 .intro-profile:hover {
   filter: grayscale(0%);
@@ -75,6 +75,8 @@ a {
 }
 .intro-header {
   font-weight: 600;
+  font-size: 32px;
+  color: #6a1b4d;
 }
 .intro-info {
   font-weight: 500;
@@ -102,7 +104,7 @@ a {
   border-radius: 50%;
   filter: grayscale(100%);
   transition: transform 0.5s;
-  box-shadow: 0px 0px 10px cyan;
+  box-shadow: 0px 0px 10px #6a1b4d;
 }
 .social-img:hover {
   filter: grayscale(0%);
@@ -124,6 +126,7 @@ a {
 
 .work-experience {
   z-index: 100;
+  border-radius: 20px;
 }
 .work-experience h1 {
   font-weight: 600;
@@ -136,7 +139,7 @@ a {
   width: 150px;
   height: 4px;
 
-  background: #7fff00;
+  background: #6a1b4d;
   margin: auto;
 }
 
@@ -149,10 +152,12 @@ a {
   width: 550px;
   height: 370px;
   box-shadow: #e03b8b 0px 7px 29px 0px;
+  border-radius: 13px;
 }
 .card-h2 {
   background-color: #e1ad9d;
   font-weight: 600;
+  border-radius: 13px;
   text-align: center;
 }
 .card-h3 {
@@ -230,7 +235,7 @@ a {
   width: 156px;
   height: 4px;
 
-  background: #7fff00;
+  background: #6a1b4d;
   margin: auto;
 }
 .skill-set {
@@ -242,7 +247,7 @@ a {
   background-color: #f0ffff;
 }
 .row-skills {
-  margin-top: 35px;
+  margin-top: 40px;
   display: flex;
   background-color: #f0ffff;
   transition: transform 0.5s;
@@ -250,7 +255,8 @@ a {
 .row-skills:hover {
   transform: scale(1.1, 1.1);
   border: 2px solid cyan;
-  box-shadow: cyan 0px 7px 29px 0px;
+  box-shadow: cyan 0px 7px 15px 0px;
+  padding-bottom: 0px;
 }
 .col-2-first {
   margin-left: 25px;
@@ -318,7 +324,7 @@ a {
   width: 150px;
   height: 4px;
 
-  background: #51e1ed;
+  background: #6a1b4d;
   margin: auto;
 }
 .row-ach {
@@ -328,53 +334,60 @@ a {
 
 .card-skill {
   position: relative;
-  background: #51e1ed;
+  background: #e1ad9d;
   margin-left: auto;
   margin-right: auto;
   margin-top: 100px;
   width: 400px;
   height: 190px;
-  box-shadow: greenyellow 0px 7px 29px 0px;
+  border-radius: 13px;
+  box-shadow: #6a1b4d 0px 7px 29px 0px;
   transition: transform 0.5s;
 }
 .card-skill:hover {
   transform: scale(1.1, 1.1);
 }
 .ach-title {
-  background-color: #51e1ed;
+  background-color: #e1ad9d;
   font-weight: 500;
   font-size: 20px;
   text-align: center;
   color: #383cc1;
+  border-radius: 10px;
 }
 
 .ach-content {
-  background-color: #51e1ed;
+  background-color: #e1ad9d;
   margin-top: 40px;
   text-align: center;
   font-weight: 500;
   line-height: 25px;
   font-size: 18px;
   color: #b4161b;
+  border-radius: 13px;
   /* font-family: "Sora" sans-serif; */
 }
+.border {
+  border-radius: 14px;
+}
 .link {
-  background-color: #51e1ed;
+  background-color: #e1ad9d;
   margin-top: 20px;
 }
 .card-skill a {
-  background-color: #51e1ed;
+  background-color: #e1ad9d;
   margin-left: 30%;
 }
 .card-project {
   position: relative;
-  background: #f7cd2e;
+  background: #e1ad9d;
   margin-left: auto;
   margin-right: auto;
   margin-top: 100px;
   width: 450px;
   height: 290px;
-  box-shadow: #3dbe29 0px 7px 29px 0px;
+  box-shadow: #6a1b4d 0px 7px 29px 0px;
+  border-radius: 13px;
   /* transition: transform 0.5s; */
 }
 .projects {
@@ -388,9 +401,10 @@ a {
 
 .project-title {
   font-family: sans-serif;
-  background-color: #f7cd2e;
+  background-color: #e1ad9d;
   font-weight: 400;
   text-align: center;
+  border-radius: 13px;
 }
 .project-title::after {
   content: "";
@@ -399,11 +413,11 @@ a {
   width: 300px;
   height: 2px;
 
-  background: #7fff00;
+  background: #6a1b4d;
   margin: auto;
 }
 .project-content {
-  background-color: #f7cd2e;
+  background-color: #e1ad9d;
   margin-top: 25px;
   color: green;
   font-weight: 400;
@@ -436,18 +450,18 @@ a {
 .row-contact {
   margin-top: 25px;
   height: 20vh;
-  background-color: #1e90ff;
+  background-color: #6a1b4d;
   display: flex;
   flex-wrap: wrap;
 }
 .col-contact {
-  background-color: #1e90ff;
+  background-color: #6a1b4d;
   flex-basis: 50%;
 }
 .contact-content {
   height: 15vh;
   width: 400px;
-  background-color: #1e90ff;
+  background-color: #6a1b4d;
   margin: auto;
   margin-top: 5%;
 }
@@ -458,7 +472,7 @@ a {
   font-size: 20px;
   margin-top: -35px;
   margin-left: 45px;
-  background-color: #1e90ff;
+  background-color: #6a1b4d;
 }
 .phone-png {
   margin-top: 8px;
@@ -466,7 +480,7 @@ a {
 }
 .phone {
   font-size: 20px;
-  background-color: #1e90ff;
+  background-color: #6a1b4d;
   margin-top: -32px;
   margin-left: 45px;
 }
@@ -476,7 +490,7 @@ a {
 }
 .address {
   font-size: 20px;
-  background-color: #1e90ff;
+  background-color: #6a1b4d;
   margin-top: -32px;
   margin-left: 45px;
 }
