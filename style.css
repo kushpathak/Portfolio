@@ -145,83 +145,77 @@ a {
   background: #6a1b4d;
   margin: auto;
 }
-
-.card {
+.work-exp-container {
+  display: flex;
+  flex-wrap: wrap;
+  min-height: 100px;
+  align-items: center;
+  justify-content: center;
+}
+.work {
   position: relative;
-  background: #e1ad9d;
+  background-color: #fff;
+  border: 6px solid #6a1b4d;
+  margin: 50px;
+  /* padding-right: 40px; */
+  width: 400px;
+  min-height: 370px;
+  z-index: 1;
+}
+.work-img {
+  width: 140px;
+  display: block;
   margin-left: auto;
   margin-right: auto;
-  margin-top: 100px;
-  width: 550px;
-  height: 370px;
-  box-shadow: #e03b8b 0px 7px 29px 0px;
-  border-radius: 13px;
+  margin-top: 10px;
 }
-.card-h2 {
-  background-color: #e1ad9d;
+.work h2 {
+  text-align: center;
   font-weight: 600;
-  border-radius: 13px;
+  letter-spacing: 0.5px;
+  margin-top: 10px;
+  color: green;
+  margin-bottom: 10px;
+}
+.work p {
   text-align: center;
+  font-size: 19px;
 }
-.card-h3 {
-  background-color: #e1ad9d;
-  font-weight: 450;
-  text-align: center;
-  padding-top: 5px;
+.work-footer {
+  margin-top: 40px;
+  width: 100.2%;
+  height: 55px;
+  background-color: rgba(0, 0, 0, 0.03);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: max-height 0.5s ease-out;
 }
-.card a {
-  text-decoration: none;
-  color: black;
+.work-button {
+  border-radius: 5px;
+  font-size: 17px;
+  border: none;
+  background-color: #6a1b4d;
+  padding: 7px 17px;
+  color: white;
 }
-.card a:hover {
-  color: #e03b8b;
-}
-.card-ul {
-  background-color: #e1ad9d;
-  margin-top: 15px;
-  margin-left: 0px;
-}
-.card-li {
-  margin-top: 20px;
-  display: list-item;
-  width: 100%;
-  background-color: #e1ad9d;
-  text-align: center;
+.work .hidden-content {
+  z-index: 10;
+  color: white;
+  padding-left: 10px;
+  padding-right: 10px;
+  font-size: 15px;
+  max-height: 0px;
+  width: 100.5%;
+  background-color: #6a1b4d;
+  overflow: hidden;
+  outline: none;
+  z-index: 1000;
+  transition: max-height 0.2s ease-in;
 }
 .arrow-icon {
   width: 20px;
   position: absolute;
-}
-.one {
-  top: 125px;
-  left: 20px;
-}
-.two {
-  left: 20px;
-  top: 170px;
-}
-.two-adv {
-  left: 20px;
-  top: 195px;
-}
-.reduce {
-  height: 320px;
-}
-.three {
-  left: 20px;
-}
-.card-li p {
-  width: 90%;
-  background-color: #e1ad9d;
-  font-weight: 400;
-}
-.p-two {
-  text-align: justify;
-  margin-left: 50px;
-}
-.p-one {
-  text-align: justify;
-  margin-left: 50px;
 }
 
 .skills {
@@ -828,5 +822,29 @@ a {
   }
   .card-skill a {
     margin-left: 28%;
+  }
+}
+@media only screen and (max-width: 486px) {
+  .work-img {
+    width: 110px;
+  }
+  .work-footer {
+    margin-top: 30px;
+  }
+  .work {
+    /* height: 70px; */
+    min-height: 100px;
+    min-width: 310px;
+  }
+
+  .work h2 {
+    font-size: 18px;
+  }
+  .work p {
+    font-size: 16px;
+  }
+  .work-button {
+    font-size: 16px;
+    padding: 6px 10px;
   }
 }

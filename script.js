@@ -31,13 +31,11 @@ window.addEventListener("load", function () {
     if (window.pageYOffset >= sticky) {
       navbar.classList.add("sticky");
     } else {
-      console.log(sticky);
       navbar.classList.remove("sticky");
     }
   }
   function scrollIntoView(pos) {
     var element = document.getElementsByClassName(pos);
-    console.log(element);
     element[0].scrollIntoView();
   }
   var projectContent = document.getElementsByClassName("project-info")[0];
@@ -70,6 +68,20 @@ window.addEventListener("load", function () {
   Object.keys(navImg).map((element) => {
     navImg[element].addEventListener("click", (e) => {
       scrolldiv(e.target.alt);
+    });
+  });
+  //Work Experience
+
+  var workBtn = document.getElementsByClassName("work-button");
+  Object.keys(workBtn).map((elem) => {
+    workBtn[elem].addEventListener("click", () => {
+      var content = document.getElementsByClassName("hidden-content");
+      // console.log(content[elem].style);
+      if (content[elem].style.maxHeight === "") {
+        content[elem].style.maxHeight = 74 + "px";
+      } else {
+        content[elem].style.maxHeight = null;
+      }
     });
   });
 });
