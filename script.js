@@ -78,7 +78,7 @@ window.addEventListener("load", function () {
       var content = document.getElementsByClassName("hidden-content");
       // console.log(content[elem].style);
       if (content[elem].style.maxHeight === "") {
-        content[elem].style.maxHeight = 74 + "px";
+        content[elem].style.maxHeight = 85 + "px";
       } else {
         content[elem].style.maxHeight = null;
       }
