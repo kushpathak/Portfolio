@@ -75,6 +75,7 @@ a {
 .intro-profile:hover {
   filter: grayscale(0%);
   transform: scale(1.1, 1.1);
+  margin-bottom: 15px;
 }
 .intro-header {
   font-weight: 600;
@@ -244,7 +245,7 @@ a {
   margin-top: 20px;
   width: 45%;
 
-  background-color: #f0ffff;
+  /* background-color: #f0ffff; */
 }
 .row-skills {
   margin-top: 40px;
@@ -309,9 +310,7 @@ a {
 .css {
   left: 10px;
 }
-.increment {
-  height: 10vh;
-}
+
 .skill-achievements {
   text-align: center;
   font-weight: 500;
@@ -689,6 +688,15 @@ a {
   }
   .avatar {
     margin-left: 60%;
+  }
+  .stars {
+    margin-left: 35px;
+  }
+  .col-2-first {
+    margin-left: 20px;
+  }
+  .algo-text {
+    margin-left: -15px;
   }
 }
 @media only screen and (max-width: 1407px) {
